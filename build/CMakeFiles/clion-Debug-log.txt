@@ -1,0 +1,62 @@
+/home/anton/tools/clion/clion-2023.2.2/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/anton/work/BackEnd_curs/Practice/cpp-backend/sprint4/problems/leave_game/solution -B /home/anton/work/BackEnd_curs/Practice/cpp-backend/sprint4/problems/leave_game/solution/build
+-- Conan: Using cmake targets configuration
+-- Library pqxx found /home/anton/.conan/data/libpqxx/7.7.4/_/_/package/20033cf4e83642132d9f79046177531478950e98/lib/libpqxx.a
+-- Library boost_contract found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_contract.a
+-- Library boost_coroutine found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_coroutine.a
+-- Library boost_fiber_numa found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_fiber_numa.a
+-- Library boost_fiber found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_fiber.a
+-- Library boost_context found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_context.a
+-- Library boost_graph found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_graph.a
+-- Library boost_iostreams found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_iostreams.a
+-- Library boost_json found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_json.a
+-- Library boost_locale found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_locale.a
+-- Library boost_log_setup found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_log_setup.a
+-- Library boost_log found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_log.a
+-- Library boost_math_c99 found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_math_c99.a
+-- Library boost_math_c99f found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_math_c99f.a
+-- Library boost_math_c99l found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_math_c99l.a
+-- Library boost_math_tr1 found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_math_tr1.a
+-- Library boost_math_tr1f found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_math_tr1f.a
+-- Library boost_math_tr1l found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_math_tr1l.a
+-- Library boost_nowide found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_nowide.a
+-- Library boost_program_options found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_program_options.a
+-- Library boost_random found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_random.a
+-- Library boost_regex found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_regex.a
+-- Library boost_stacktrace_addr2line found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_stacktrace_addr2line.a
+-- Library boost_stacktrace_backtrace found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_stacktrace_backtrace.a
+-- Library boost_stacktrace_basic found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_stacktrace_basic.a
+-- Library boost_stacktrace_noop found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_stacktrace_noop.a
+-- Library boost_timer found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_timer.a
+-- Library boost_type_erasure found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_type_erasure.a
+-- Library boost_thread found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_thread.a
+-- Library boost_chrono found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_chrono.a
+-- Library boost_container found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_container.a
+-- Library boost_date_time found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_date_time.a
+-- Library boost_unit_test_framework found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_unit_test_framework.a
+-- Library boost_prg_exec_monitor found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_prg_exec_monitor.a
+-- Library boost_test_exec_monitor found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_test_exec_monitor.a
+-- Library boost_exception found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_exception.a
+-- Library boost_wave found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_wave.a
+-- Library boost_filesystem found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_filesystem.a
+-- Library boost_atomic found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_atomic.a
+-- Library boost_wserialization found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_wserialization.a
+-- Library boost_serialization found /home/anton/.conan/data/boost/1.78.0/_/_/package/8cc3305c27e5ff838d1c7590662e309638310dfc/lib/libboost_serialization.a
+-- Library Catch2Maind found /home/anton/.conan/data/catch2/3.1.0/_/_/package/41284c517aa3685ac3c8e4f384721953d75298a7/lib/libCatch2Maind.a
+-- Library Catch2d found /home/anton/.conan/data/catch2/3.1.0/_/_/package/41284c517aa3685ac3c8e4f384721953d75298a7/lib/libCatch2d.a
+-- Library pq found /home/anton/.conan/data/libpq/14.5/_/_/package/be27726f9885116da1158027505be62e913cd585/lib/libpq.a
+-- Library pgcommon found /home/anton/.conan/data/libpq/14.5/_/_/package/be27726f9885116da1158027505be62e913cd585/lib/libpgcommon.a
+-- Library pgcommon_shlib found /home/anton/.conan/data/libpq/14.5/_/_/package/be27726f9885116da1158027505be62e913cd585/lib/libpgcommon_shlib.a
+-- Library pgport found /home/anton/.conan/data/libpq/14.5/_/_/package/be27726f9885116da1158027505be62e913cd585/lib/libpgport.a
+-- Library pgport_shlib found /home/anton/.conan/data/libpq/14.5/_/_/package/be27726f9885116da1158027505be62e913cd585/lib/libpgport_shlib.a
+-- Library z found /home/anton/.conan/data/zlib/1.3/_/_/package/be27726f9885116da1158027505be62e913cd585/lib/libz.a
+-- Library bz2 found /home/anton/.conan/data/bzip2/1.0.8/_/_/package/76bd63d0cd275bc555bda09b7f93740254ba3515/lib/libbz2.a
+-- Library backtrace found /home/anton/.conan/data/libbacktrace/cci.20210118/_/_/package/be27726f9885116da1158027505be62e913cd585/lib/libbacktrace.a
+-- Conan: Adjusting default RPATHs Conan policies
+-- Conan: Adjusting language standard
+-- Current conanbuildinfo.cmake directory: /home/anton/work/BackEnd_curs/Practice/cpp-backend/sprint4/problems/leave_game/solution/build
+-- Conan: Compiler GCC>=5, checking major version 11
+-- Conan: Checking correct version: 11
+BUILD TYPE: Debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/anton/work/BackEnd_curs/Practice/cpp-backend/sprint4/problems/leave_game/solution/build

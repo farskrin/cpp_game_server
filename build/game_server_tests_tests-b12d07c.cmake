@@ -1,0 +1,5 @@
+add_test( [==[Scenario: Loot generation]==] /home/anton/work/BackEnd_curs/Practice/cpp-backend/sprint4/problems/leave_game/solution/build/game_server_tests [==[Scenario: Loot generation]==]  )
+set_tests_properties( [==[Scenario: Loot generation]==] PROPERTIES WORKING_DIRECTORY /home/anton/work/BackEnd_curs/Practice/cpp-backend/sprint4/problems/leave_game/solution/build)
+add_test( [==[Scenario: Collision detection]==] /home/anton/work/BackEnd_curs/Practice/cpp-backend/sprint4/problems/leave_game/solution/build/game_server_tests [==[Scenario: Collision detection]==]  )
+set_tests_properties( [==[Scenario: Collision detection]==] PROPERTIES WORKING_DIRECTORY /home/anton/work/BackEnd_curs/Practice/cpp-backend/sprint4/problems/leave_game/solution/build)
+set( game_server_tests_TESTS [==[Scenario: Loot generation]==] [==[Scenario: Collision detection]==])
